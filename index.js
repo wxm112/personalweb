@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$("#content-experience").hide();
+	$(".content").hide();
+	$("#content-profile").show();
 	$(".menu").mouseover(function(){
 		$(this).addClass("hover");
 	});
@@ -7,16 +8,34 @@ $(document).ready(function(){
 		$(this).removeClass("hover");
 	});
 	$("#click-profile").click(function(){
+		$(".menu").removeClass("click");
 		$(this).addClass("click");
-		$("#click-experience").removeClass("click");
-		$("#content-experience").hide();
+		$(".content").hide();
 		$("#content-profile").show();
 	});
 	$("#click-experience").click(function(){
+		$(".menu").removeClass("click");
 		$(this).addClass("click");
-		$("#click-profile").removeClass("click");
-		$("#content-profile").hide();
+		$(".content").hide();
 		$("#content-experience").show();
+	});
+	$("#click-education").click(function(){
+		$(".menu").removeClass("click");
+		$(this).addClass("click");
+		$(".content").hide();
+		$("#content-education").show();
+	});
+	$("#click-certifications").click(function(){
+		$(".menu").removeClass("click");
+		$(this).addClass("click");
+		$(".content").hide();
+		$("#content-certifications").show();
+	});
+	$("#click-volunteer").click(function(){
+		$(".menu").removeClass("click");
+		$(this).addClass("click");
+		$(".content").hide();
+		$("#content-volunteer").show();
 	});
 });
 
