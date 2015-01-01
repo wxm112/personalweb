@@ -1,9 +1,13 @@
+body {
+	font-family: helvetica;	
+	margin: 0px;
+}
+
 header {
 	background: url("http://www.0769chufa.com/Bgg/attached/2013219/20132191313542702853.jpg");
 	background-size: cover;
 	text-align: center;
 	font-size: 20px;
-	font-family: helvetica;
 	color: white;
 }
 
@@ -18,7 +22,6 @@ header {
 	display: inline;
 	padding: 0px 10px 0px 10px;
 	color: white;
-	font-family: helvetica;
 	font-size: 15px;
 	vertical-align: middle;
 }
@@ -29,6 +32,29 @@ header {
 }
 .click {
 	background-color: brown;
+}
+.block {
+    max-width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+	background-color: #f5f5f5;
+}
+.h1 {
+	color: rgba(89,5,245,1);
+	font-weight: bold;
+	font-size: 20px;
+}
+.h2{
+	color:rgba(89,5,245,0.6);
+	font-size: 15px;
+}
+.h3{
+	color: rgba(89,5,245,0.3);
+	font-style: italic;
+	font-size: 15px;
+}
+.h4 {
+	font-size: 15px;
 }
 
 #tabs {
